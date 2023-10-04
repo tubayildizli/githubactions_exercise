@@ -9,3 +9,7 @@ def subtract(a, b):
 def test_add():
   assert add(3,4)     == 7
   assert add("a","b") == "ab"
+  
+def test_subtract():
+  assert subtract(4,3) == 1
+  assert subtract(5,2) == 3
